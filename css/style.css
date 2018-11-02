@@ -1,0 +1,1015 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.Header_Logo {
+    margin-left: 141px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+
+.Header_Menu {
+    margin-top: 27px;
+    margin-right: 141px;
+    margin-bottom: 32px;
+}
+
+.Header_Menu a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 51px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.Header_Menu a:hover{
+    
+    color: #ff8b38;
+}
+
+
+
+
+
+.main {
+    background: url(image1.png) 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 713px;
+    position: relative;
+}
+
+.main_opacity {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.48;
+}
+
+.main_left {
+    position: absolute;
+    margin-left: 141px;
+    width: 508px;
+}
+
+
+
+.main_logo {
+    margin-top: 106px;
+    margin-bottom: 32px;
+
+}
+
+.main_slogan h4{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 44px;
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: 300;
+}
+
+.main_left hr {
+    width: 64px;
+    size: 2px;
+    color: white;
+    margin-bottom: 48px;
+
+}
+
+.main_description {
+    color: white;
+    font-family: "Open Sans";
+    margin-bottom: 48px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    width: 480px;
+}
+
+.main_description button {
+    margin-top: 48px;
+    margin-bottom: 144px;
+    border: solid #ffffff 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    text-align: center;
+    width: 135px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+
+.main_description button:hover{
+    
+    border: solid #ff8b38 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ff8b38;
+}
+
+
+
+.main_social {
+    position: absolute;
+    top: 713px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    opacity: 0.5;
+    height: 105px;
+    justify-content: space-between;
+
+}
+
+.main_social_text {
+    width: 357px;
+    margin-left: 141px;
+
+}
+
+.main_social_text_h3 {
+    margin-top: 22px;
+    margin-bottom: 20px;
+    color:#000000;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+
+.main_social_text_p {
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+
+.main_social_icon {
+    margin-right: 141px;
+    margin-top: 32px;
+}
+
+.main_social_bottom {
+    position: absolute;
+    top: 816px;
+    width: 100%;
+    size: 2px;
+    opacity: 0.2;
+}
+
+.main_social_empty {
+    position: absolute;
+    bottom: 817px;
+    content: "";
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    height: 71px;
+    margin-bottom: 1px;
+
+}
+
+
+
+.features_one{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 595px;
+    background-color: #f5f5f5;
+    
+}
+
+.features_one_tab{
+    
+    margin-left: 141px;
+    margin-top: 147px;
+    margin-bottom: 120px;
+}
+
+.features_one_tab p{
+    
+    width:108px;
+    height: 113px;
+    text-align: center;
+    line-height: 8;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    background-color: #333333;
+    margin:0;
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+.features_one_tab p:hover{
+    background-color: #ff8b38; 
+}
+
+.features_one_text{
+    
+     margin-left: 103px;
+    
+}
+
+
+
+.features_one_text h4{
+    
+   margin-top: 147px;
+    font-size: 20px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-bottom: 63px;
+}
+
+
+
+.features_one_text p{
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    line-height: 1.5;
+}
+
+
+.features_one_text button {
+    margin-top: 22px;
+    border: solid #ff8b38 2px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    background-color: #ff8b38;
+    color: #ffffff;
+    text-align: center;
+    width: 118px;
+    height: 43px;
+   font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.features_one_text button:hover{
+    
+     box-shadow: 0 5px 5px 5px rgba(122,122,122,0.4);
+    
+}
+
+
+
+
+
+.features_one_img{
+    
+    margin-right: 141px;
+    margin-top: 147px;;
+    
+}
+
+.features_two{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 596px;
+    background-color: #ffffff;
+    
+}
+
+.features_two_img{
+    margin-left: 141px;
+    margin-top: 123px;
+    
+}
+
+
+.features_two_img img{
+    
+    box-shadow: 0 17px 15px 15px rgba(122,122,122,0.1);
+}
+
+.features_two_text{
+    margin-right: 141px;
+    margin-left: 190px;
+    
+}
+
+.features_two_text h4{
+    
+    margin-top: 110px;
+    font-size: 20px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.features_two_text hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin-bottom: 35px;
+}
+
+.features_two_text p{
+    margin-bottom: 31px;
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    line-height: 1.5;
+    
+}
+
+.features_two_text_item{
+    width: 429px;
+}
+
+.features_two_text_item_round{
+    
+    width: 36px;
+    height: 36px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+   display: block;
+    float: left;
+    margin-right: 0px;
+    
+    
+}
+
+.features_two_text_item_round img{
+    
+    margin-top: 6px;
+    margin-left: 6px;
+    
+} 
+
+
+
+.features_two_text_item_round_name{
+    
+    display: block;
+    float: left;
+    margin-left: 25px;
+    
+}
+
+.features_two_text_item_round_name h4{
+    margin-top: -2px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: bolder;
+    letter-spacing: 0.5;
+}
+
+.features_two_text_item_round_name p{
+    
+    margin-top: 0;
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    
+}
+
+.features_three{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 524px;
+    background-color: #f5f5f5;
+    
+}
+
+.features_three_text{
+    margin-left: 141px;
+    width: 472px;
+    margin-top: 107px;
+}
+
+.features_three_text h3{
+    
+    font-size: 20px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.features_three_text hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin-bottom: 35px;
+}
+
+.features_three_text p{
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    line-height: 1.5;
+}
+
+
+.features_three_img{
+    margin-right: 141px;
+    margin-top: 90px;
+    
+}
+
+
+.features_three_img img{
+    
+    box-shadow: 0 0 15px 10px rgba(122,122,122,0.3);
+}
+
+.advantages{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 592px;
+    background-color: #ffffff;
+ 
+   
+    
+}
+
+.advantages_center h4{
+    margin-top: 106px;
+    font-size: 36px;
+    color: #212121;
+    font-family: "Raleway";
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2;
+    margin-bottom: 30px;
+    
+}
+
+.advantages_center hr{
+    
+    width: 64px;
+    height: 2px;
+    border: none;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin-bottom: 35px;
+}
+
+.advantages_center p{
+    
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 32px;
+    
+}
+
+.advantages_list_all{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 141px;
+    margin-right: 141px;
+}
+.advantages_list{
+     text-align: center;
+}
+
+.advantages_list_round_one{
+  margin-left: 140px;
+  width: 65px;
+  height: 65px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  line-height: 5;  /* подробнее про line-height */
+  text-align: center;  /* выравнять текст по середине по горизонтали */
+  background: none;
+
+}
+
+
+.advantages_list h4{
+    
+font-size: 20px;
+color: #333333;
+font-family: "Open Sans";
+font-weight: bold;
+text-align: center;
+margin-bottom: 32px; 
+    
+}
+
+.advantages_list_round_two{
+  margin-left: 150px;
+  width: 65px;
+  height: 65px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  line-height: 4.5;  /* подробнее про line-height */
+  text-align: center;  /* выравнять текст по середине по горизонтали */
+  background: none;
+
+}
+
+.advantages_list_round_three{
+  margin-left: 160px;
+  width: 65px;
+  height: 65px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  line-height: 6;  /* подробнее про line-height */
+  text-align: center;  /* выравнять текст по середине по горизонтали */
+  background: none;
+
+}
+
+.advantages_list p{
+font-size: 14px;
+color: #86878b;
+font-family: "Open Sans";
+text-align: center;
+}
+
+.pricing{
+    
+    background-color: #f5f5f5;
+    height: 883px;
+    width: 100%;
+    padding-top: 107px;
+
+    
+}
+
+.pricing_center h4{
+    text-align: center;
+    margin-bottom: 29px;
+    font-size: 36px;
+    color: #212121;
+    font-family: "Raleway";
+    font-weight: 400;
+    
+}
+
+
+.pricing_center hr{
+    
+    width: 64px;
+    height: 2px;
+    border: none;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin-bottom: 32px;
+}
+
+.pricing_center p{
+    
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    margin-bottom: 82px;
+    text-align: center;
+    
+}
+.pricing_slot_all{
+    
+     display: flex;
+    justify-content: space-between;
+     margin-left: 141px;
+    margin-right: 141px;
+    
+}
+
+.pricing_slot{
+    margin-top: 35px;
+    width: 342px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 39px;
+    
+}
+
+
+.pricing_slot_title{
+    
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+    background-color: #333333;
+    height: 58px;
+    line-height: 2.5;
+    border-bottom: 1px solid white;
+ 
+}
+
+.pricing_slot_price{
+    
+    height: 150px;
+    background-color: #333333;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 28px;
+    border-bottom: 3px solid #ff8b38;
+    padding-bottom: 20px;
+    
+    
+}
+.pricing_slot_popular{
+  height: 38px;
+    background-color: #ff8b38;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+.pricing_slot_price p{
+    
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    color: #808080;
+}
+
+
+.pricing_slot_parameters p {
+    margin:0;
+    font-size: 14px;
+    line-height: 3;
+    height: 40px;
+    color: #86878b;
+    font-family: "Open Sans";
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f5f5f5;
+}
+    
+
+.popular{
+    margin-top: 0;
+}
+
+.testimonials{
+    width: 100%;
+    height: 591px;
+    background-color: #ffffff;
+}
+
+.testimonials_center h4{
+    text-align: center;
+    margin-top: 104px;
+    font-size: 36px;
+    color: #212121;
+    font-weight: 400;
+    font-family: "Raleway";
+    margin-bottom: 32px;
+}
+
+.testimonials_center hr{
+    
+    width: 64px;
+    height: 2px;
+    border: none;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin-bottom: 32px;
+}
+
+.testimonials_center p{
+    
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.testimonials_all{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 141px;
+    margin-right: 141px;
+}
+
+
+.testimonials_item_text {
+position: relative;
+width: 264px;
+height: 133px;
+padding: 0px;
+background: #f5f5f5;
+border-radius: 3px;
+font-size: 14px;
+font-family: "Open Sans";
+    padding-top: 27px;
+    padding-left: 13px;
+    padding-right: 14px;
+    font-style: italic;
+    letter-spacing: 2;
+    color: #86878b;
+    
+}
+
+.testimonials_item_text:after {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 21px 18px 0;
+border-color: #f5f5f5 transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -21px;
+left: 27px;
+}
+
+.testimonials_item_photo{
+    margin-top: 26px;
+    
+}
+.testimonials_item_photo img{
+    
+    display: block;
+    float: left;
+    margin-right: 18px;
+    margin-left: 10px;
+}
+
+.testimonials_item_photo_name{
+    
+    display: block;
+    float: left;
+    margin-right: 18px;
+    
+}
+
+.testimonials_item_photo_name h4{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: bolder;
+    letter-spacing: 0.5;
+}
+
+.testimonials_item_photo_name p{
+    
+    margin-top: 0;
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    
+}
+
+.custom_section{
+    width:100%;
+    height: 320px;
+    background:  url(u25_state_0.png) 50% no-repeat;
+    text-align: center;
+    box-shadow: inset 0px 0px 0 700px rgba(0,0,0,0.6);
+ 
+ 
+}
+    
+.custom_section h4{
+      padding-top: 72px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+    margin-bottom: 32px;
+    
+}
+
+
+.custom_section hr{
+    
+    width: 64px;
+    height: 2px;
+    border: none;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin-bottom: 36px;
+}
+.custom_section p{
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family: "Raleway";
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 39px;
+    
+}
+
+.custom_section button {
+    margin-bottom: 65px;
+    border: solid white 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    width: 135px;
+    height: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: "Open Sans";
+    font-weight: bold;
+
+}
+
+.custom_section button:hover{
+    
+    border: solid #ff8b38 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ff8b38;
+}
+
+
+
+
+.contact{
+    width: 100%;
+    height: 612px;
+    background-color: #ffffff;
+}
+
+.contact_center h4{
+    
+    margin-top: 108px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: #212121;
+    font-family: "Raleway";
+    margin-bottom: 32px;
+    
+}
+
+.contact_center hr{
+    
+    width: 64px;
+    height: 2px;
+    border: none;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin-bottom: 32px;
+    
+}
+
+.contact_center p{
+    
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 83px;
+    
+}
+
+.name {
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.email {
+    
+     grid-column: 1/2;
+     grid-row: 2/3;
+}
+
+
+.subject {
+    
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+
+
+    .full-height{
+    
+      grid-column: 2/3;
+      grid-row: 1/2;
+    margin-bottom: 2px;
+}
+
+.empty{
+     grid-column: 2/3;
+      grid-row: 3/4;
+}
+
+
+.full-width{
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+
+
+
+
+
+.contact_form{
+    
+    margin-right: 141px;
+    margin-left: 141px;
+    display: grid;
+    grid-template-columns: 520px 520px;
+    grid-auto-rows: 30px;
+    grid-gap: 68px; 
+      font-size: 14px;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    
+    
+   
+}
+
+input{
+    border: none;
+  
+}
+
+.one{
+    border-bottom: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    border-top: none;
+    border-left: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.contact_form button {
+    margin-top: 48px;
+    border: solid #ff8b38 2px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    background-color: #ff8b38;
+    color: #ffffff;
+    text-align: center;
+    width: 144px;
+    height: 44px;
+   font-family: "Open Sans";
+    font-weight: bold;
+    
+}
+
+
+
+.contact_form button:hover{
+    
+     box-shadow: 0 5px 5px 5px rgba(122,122,122,0.4);
+    
+}
+
+
+
+
+
+footer{
+    margin-top: 83px;
+    height: 81px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    padding-bottom: 15px;
+    padding-top: 20px;
+    
+}
