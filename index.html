@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <title>AXIT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.0/js/brands.js" integrity="sha384-GEA3+tbEaglIUriKygE2OQX9k7YrAMJ5oZF0mb8Xx7hUmTTWDuQDtPY4l13jl99w" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/fontawesome.js" integrity="sha384-tHFnt8QELQGC1IJzcTUX5zFEnn/FLVa0ADTmxRyeSmWukJ4umWnJbwiMTkw/bKEK" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
@@ -16,8 +19,20 @@
         <div class="b-header__logo">
             <img src="img/logo2.png" alt="AXIT Logotype">
         </div>
+        
         <div class="b-menu-mobile">
-            <img src="img/hamb.png" alt="Hamburger Menu">
+           
+           <input id="go" type="checkbox"/>
+           <label for="go" class="st"><img src="img/hamb.png" alt="Hamburger Menu"></label>
+            <div class="b-mobile__item animated bounceInRight delay-500ms">
+            <a class="b-mobile__link" href="#b-features">FEATURES</a>
+            <a class="b-mobile__link" href="#b-about">ABOUT</a>
+            <a class="b-mobile__link" href="#b-pricing">PRICING</a>
+            <a class="b-mobile__link" href="#b-reviews">REVIEWS</a>
+            <a class="b-mobile__link" href="#b-contact">CONTACT</a>
+        </div>
+            
+            
         </div>
         <div class="b-menu">
             <a class="b-menu__link" href="#b-features">Features</a>
@@ -26,6 +41,7 @@
             <a class="b-menu__link" href="#b-reviews">Reviews</a>
             <a class="b-menu__link" href="#b-contact">Contact</a>
         </div>
+        
     </header>
     <div class="b-main">
         <div class="b-left">
@@ -70,7 +86,27 @@
             <p class="b-social__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
         </div>
         <div class="b-social__icon">
-            <img class="b-social__img" src="img/social media icons.png" alt="social media icons">
+             <a class="b-social__item" href="#">
+                        <i class="fab fa-facebook-f"></i>
+             </a>
+             <a class="b-social__item" href="#">
+                        <i class="fab fa-twitter"></i>
+             </a>
+             <a class="b-social__item" href="#">
+                        <i class="fab fa-google-plus-g"></i>
+             </a>
+             <a class="b-social__item" href="#">
+                        <i class="fab fa-pinterest"></i>
+             </a>
+             <a class="b-social__item" href="#">
+                        <i class="fab fa-instagram"></i>
+             </a>
+             <a class="b-social__item" href="#">
+                        <i class="fab fa-stumbleupon"></i>
+             </a>
+             <a class="b-social__item" href="#">
+                        <i class="fas fa-rss"></i>
+             </a>
         </div>
     </div>
     <hr class="b-social__bottom" noshade>
@@ -289,7 +325,29 @@
         </form>
     </section>
     <footer class="b-footer">
-        <img class="b-footer__img" src="img/icons_black.png" alt="social media" />
+            <div class="b-footer__icon">
+               <a class="b-footer__item" href="#">
+                        <i class="fab fa-facebook-f"></i>
+               </a>
+               <a class="b-footer__item" href="#">
+                        <i class="fab fa-twitter"></i>
+               </a>
+               <a class="b-footer__item" href="#">
+                        <i class="fab fa-google-plus-g"></i>
+               </a>
+               <a class="b-footer__item" href="#">
+                        <i class="fab fa-pinterest"></i>
+               </a>
+               <a class="b-footer__item" href="#">
+                        <i class="fab fa-instagram"></i>
+               </a>
+               <a class="b-footer__item" href="#">
+                        <i class="fab fa-stumbleupon"></i>
+               </a>
+               <a class="b-footer__item" href="#">
+                        <i class="fas fa-rss"></i>
+               </a>
+        </div>
         <p class="b-footer__name"> &copy; 2015 Axure Themes </p>
     </footer>
 </body>
