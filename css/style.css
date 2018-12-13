@@ -22,6 +22,48 @@ body {
     display: inline-block;
         margin-top: 23px;
         margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.b-mobile__item, #go {
+    display:none;
+    cursor: pointer;
+    position:absolute;
+width: 90%;
+background: #000000;
+margin-top: 10px;
+margin-left: -70%;
+    
+    
+    
+}
+
+#go:checked ~ .b-mobile__item {
+    display:flex;
+    flex-direction: column;
+}
+
+.b-mobile__link{
+    
+    background-color: black;
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+
+text-decoration: none;
+
+color: #bdbdbd;
+
+font-size: 16px;
+    text-align: center;
+    
+    
+}
+.b-mobile__link:hover{
+    
+    color:#ff8b38;
 }
 
 .b-menu{
@@ -109,6 +151,8 @@ font-style: normal;
     padding-top: 13px;
     padding-bottom: 13px;
     font-size: 15px;
+    -webkit-transition: width 800ms, height 800ms, background-color 800ms, -webkit-transform 800ms;
+    transition: width 800ms, height 800ms, background-color 800ms, transform 800ms;
     
 
 }
@@ -116,8 +160,12 @@ font-style: normal;
 .b-left__button:hover {
     border: solid #ffffff 2px;
     background-color: #ffffff;
-    color: #000000;
+    color: #ff8b38;
     cursor: pointer;
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    
+    
 }
 
 .b-right{
@@ -139,7 +187,7 @@ font-style: normal;
 
 .b-social__text {
     width: 100%;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     font-size: 16px;
     margin-bottom: -30px;
@@ -160,19 +208,25 @@ font-style: normal;
 }
 
 .b-social__icon {
-    margin-right: 21px;
     margin-top: 32px;
+    text-align: center;
+    width: 100%;
     
 }
 
-.b-social__img{
+.b-social__item{
         margin-right: 21px;
         margin-left: 21px;
-        background-position: center;
-        background-size: cover;
-        background-image: url(img/social media icons.png);
-        width: 95%;
+        text-decoration: none;
+        font-size: 24px;
+        margin: 0 10px;
+        color: #ccc;
     }
+
+.b-social__item:hover{
+    color:#454b56;
+}
+
 
 .b-social__bottom {
     width: 100%;
@@ -188,13 +242,13 @@ font-style: normal;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: #bdbdbd;
     
 }
 
 .b-tabs__all{
     margin-bottom: 20px;
-   
+       width: 80%;
     margin-top: 20px;
      margin-left: 21px;
      margin-right: 21px;
@@ -215,10 +269,16 @@ font-style: normal;
     font-weight: bold;
     background-color: #333333;
     margin: 0;
+        -webkit-transition: width 800ms, height 800ms, background-color 800ms, -webkit-transform 800ms;
+    transition: width 800ms, height 800ms, background-color 800ms, transform 800ms;
 }
 
 .b-tabs__item:hover {
     background-color: #ff8b38;
+    border: none;
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    
 }
 
 .b-tabs__text {
@@ -248,7 +308,7 @@ font-style: normal;
 .b-tabs__description {
     margin-bottom: 32px;
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     line-height: 1.5;
 }
@@ -267,10 +327,16 @@ font-style: normal;
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 40px;
+     -webkit-transition: width 800ms, height 800ms, background-color 800ms, -webkit-transform 800ms;
+    transition: width 800ms, height 800ms, background-color 800ms, transform 800ms;
+    
+    
 }
 
 .b-tabs__button:hover {
     box-shadow: 0 5px 5px 5px rgba(122, 122, 122, 0.4);
+     -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
 }
 
 .b-tabs__img{
@@ -335,7 +401,7 @@ width: 100%;
 .b-list__description {
     margin-bottom: 31px;
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     line-height: 1.5;
 }
@@ -382,7 +448,7 @@ width: 330px;
 .b-round__description {
     margin-top: 0;
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     margin-right: 30px;
 
@@ -395,7 +461,7 @@ width: 330px;
     justify-content: center;
     width: 100%;
         margin-bottom: 20px;
-    background-color: #f5f5f5;
+    background-color: #bdbdbd;
 }
 
 .b-picture__text {
@@ -425,7 +491,7 @@ width: 330px;
 .b-picture__description {
     margin-bottom: 35px;
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     line-height: 1.5;
 }
@@ -479,7 +545,7 @@ width: 330px;
 
 .b-about__description {
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     text-align: center;
     margin-bottom: 32px;
@@ -495,14 +561,14 @@ width: 330px;
 }
 
 .b-item {
-    text-align: center;
-     margin-left: 21px;
-        margin-right: 21px;
         margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .b-item__img {
-     margin-left: 110px;
     width: 66px;
     height: 66px;
     border: 2px solid #ff8b38;
@@ -525,13 +591,13 @@ width: 330px;
 
 .b-item__description {
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     text-align: center;
 }
 
 .b-pricing {
-    background-color: #f5f5f5;
+    background-color: #bdbdbd;
     height: 100%;
     width: 100%;
     padding-top: 10px;
@@ -563,7 +629,7 @@ width: 330px;
 
 .b-pricing__description {
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     margin-bottom: 82px;
     text-align: center;
@@ -588,6 +654,9 @@ width: 300px;
         margin-left: 0px;
         margin-bottom: 30px;
     text-align: center;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .2);
+
+
 }
 
 
@@ -644,11 +713,11 @@ width: 300px;
     font-size: 12px;
     line-height: 3;
     height: 40px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     text-align: center;
     background-color: #ffffff;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #bdbdbd;
 }
 
 
@@ -686,7 +755,7 @@ width: 300px;
 
 .b-reviews__description{
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     margin-bottom: 60px;
     text-align: center;
@@ -719,7 +788,7 @@ align-items: center;
     width: 264px;
     height: 133px;
     padding: 0px;
-    background: #f5f5f5;
+    background: #bdbdbd;
     border-radius: 3px;
     font-size: 14px;
     font-family: "Open Sans";
@@ -728,7 +797,7 @@ align-items: center;
     padding-right: 14px;
     font-style: italic;
     letter-spacing: 2;
-    color: #86878b;
+    color: #6e7077;
 }
 
 .b-reviews__text:after {
@@ -736,7 +805,7 @@ align-items: center;
     position: absolute;
     border-style: solid;
     border-width: 21px 18px 0;
-    border-color: #f5f5f5 transparent;
+    border-color: #bdbdbd transparent;
     display: block;
     width: 0;
     z-index: 1;
@@ -774,7 +843,7 @@ align-items: center;
 .b-reviews__position {
     margin-top: 0;
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
 }
 
@@ -787,9 +856,10 @@ align-items: center;
 .b-custom {
     width: 100%;
     height: 320px;
-    background: url(u25_state_0.png) 50% no-repeat;
+    background: url(u25_state_0.png) no-repeat;
+    background-size:cover;
     text-align: center;
-    box-shadow: inset 0px 0px 0 700px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 0px 0 320px rgba(0, 0, 0, 0.6);
 }
 
 .b-custom__header {
@@ -814,7 +884,7 @@ align-items: center;
 
 .b-custom__description {
     font-size: 16px;
-    color: #f5f5f5;
+    color: #bdbdbd;
     font-family: "Raleway";
     font-weight: 300;
     text-align: center;
@@ -841,12 +911,21 @@ align-items: center;
     font-size: 14px;
 
 margin-right: 21px;
+     -webkit-transition: width 800ms, height 800ms, background-color 800ms, -webkit-transform 800ms;
+    transition: width 800ms, height 800ms, background-color 800ms, transform 800ms;
+    
+    
+    
+    
+    
 }
 
 .b-custom__button:hover {
     border: solid #ff8b38 2px;
     background-color: rgba(0, 0, 0, 0);
     color: #ff8b38;
+     -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
 }
 
 .b-contact {
@@ -876,7 +955,7 @@ margin-right: 21px;
 
 .b-contact__description {
     font-size: 14px;
-    color: #86878b;
+    color: #6e7077;
     font-family: "Open Sans";
     font-weight: 300;
     text-align: center;
@@ -958,10 +1037,15 @@ margin-right: 21px;
     font-family: "Open Sans";
     font-weight: bold;
     font-size: 15px;
+     -webkit-transition: width 800ms, height 800ms, background-color 800ms, -webkit-transform 800ms;
+    transition: width 800ms, height 800ms, background-color 800ms, transform 800ms;
+    
 }
 
 .b-contact__button:hover {
     box-shadow: 0 5px 5px 5px rgba(122, 122, 122, 0.4);
+     -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
 }
 
 .b-footer {
@@ -975,6 +1059,20 @@ margin-right: 21px;
     padding-bottom: 15px;
     padding-top: 20px;
 }
+
+.b-footer__item{
+        text-decoration: none;
+        font-size: 24px;
+        margin: 0 10px;
+        color: #ccc;
+    }
+
+.b-footer__item:hover {
+    color: #ffffff;
+}
+
+
+
 
 @media screen and (min-width: 768px) {
     
@@ -1002,7 +1100,7 @@ margin-right: 21px;
 }
 
 .b-menu__link:hover {
-    color: #ffffff;
+    color: #ff8b38;
     cursor: pointer;
 }
 
@@ -1070,12 +1168,15 @@ margin-right: 21px;
         
     }
     
-     .b-social__img {
+     .b-social__item {
         
-        width: 90%;
+        font-size: 36px;
         margin-right: 41px;
         
     }
+    
+    
+    
     
     .b-tabs{
         
@@ -1095,6 +1196,7 @@ margin-left: 41px;
 
       height: 80px;
         border-bottom: 1px solid #ffffff;
+        border-right: none;
         font-size: 14px;
         line-height: 6;
     }
@@ -1265,6 +1367,10 @@ margin-right: 41px;
           margin-top: 255px;
         
     }
+    .b-footer__item {
+        
+        font-size: 36px;
+    }
   
     
     
@@ -1323,7 +1429,7 @@ height: 60px;
     }
     .b-right__header {
     height: 55px;
-    background-color: #f5f5f5;
+    background-color: #bdbdbd;
     color: #333333;
     font-size: 20px;
     font-family: "Open Sans";
@@ -1423,15 +1529,11 @@ height: 60px;
     
     
     .b-social__icon{
-        margin-right: 0px;
+        text-align: right;
     }
     
-    .b-social__img{
-        
-        width: 78%;
-        
-        margin-right: 0px;
-        margin-left: 0px;
+    .b-social__item{
+        font-size: 48px;
         
         
     }
@@ -1464,6 +1566,7 @@ height: 60px;
     .b-list {
 
     flex-direction: row-reverse;
+        justify-content: space-between;
 
 }
     .b-round__img{
@@ -1480,7 +1583,15 @@ height: 303px;
     
     .b-list__text{
         margin-top: -20px;
+        margin-right: 151px;
     }
+    
+    .b-list__img{
+        
+        margin-left: 151px;
+        
+    }
+    
     
     .b-list__description{
         width: 438px;
@@ -1521,6 +1632,12 @@ height: 303px;
         margin-right: 0px;
     }
     
+    
+    .b-item{
+        margin-left: 51px;
+margin-right: 51px;
+    }
+    
     .b-item__header{
         font-size: 20px;
     }
@@ -1532,13 +1649,39 @@ height: 303px;
         font-size: 36px;
     }
     
+    .b-pricing__slot{
+        
+        margin-left: 151px;
+margin-right: 151px;
+    }
     
     .b-slot{
-        width: 343px;
+           width: 300px;
+           -webkit-transition: width 800ms, height 800ms, background-color 800ms, -webkit-transform 800ms;
+    transition: width 800ms, height 800ms, background-color 800ms, transform 800ms;
     }
+    
+    
+    .b-slot:hover{
+        
+        -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    
+        
+    }
+    
+    
+    
+       
    
     .b-slot__item{
         font-size: 14px;
+    }
+    
+    
+    .b-reviews__all{
+        margin-left: 151px;
+margin-right: 151px;
     }
     
     .b-reviews__header{
@@ -1555,8 +1698,8 @@ height: 303px;
     
     .b-custom__description{
         
-        width: 766px;
-        margin-left: 251px;
+        width: 100%;
+        margin-left: 0px;
         
     }
     .b-custom__button{
@@ -1584,7 +1727,9 @@ height: 303px;
 
     .b-contact__form {
         
-        grid-template-columns: 520px 520px;
+        grid-template-columns: 40% 40%;
+        margin-left: 151px;
+            grid-gap: 100px;
         
     }
     
@@ -1597,6 +1742,11 @@ height: 303px;
     height: 44px;
         
         
+    }
+    
+    .b-footer__item {
+        
+        font-size: 48px;
     }
     
     
