@@ -21,6 +21,7 @@ body {
     display: inline-block;
     margin-top: 23px;
     margin-right: 20px;
+    height: 30px;
     cursor: pointer;
 }
 .b-mobile__item,
@@ -30,7 +31,7 @@ body {
     position: absolute;
     width: 82%;
     background: #000000;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: -70%;
 }
 
@@ -38,6 +39,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.b-menu-mobile:hover {
+    background-color:  #ff8b38;
+}
+
 
 .b-mobile__link {
     background-color: black;
@@ -777,6 +783,11 @@ body {
     background-size: cover;
     text-align: center;
     box-shadow: inset 0px 0px 0 320px rgba(0, 0, 0, 0.6);
+    display: flex;
+
+flex-direction: column;
+
+align-items: center;
 }
 
 .b-custom__header {
@@ -791,7 +802,6 @@ body {
 .b-custom__divider {
     width: 64px;
     height: 2px;
-    border: none;
     background-color: #ffffff;
     color: #ffffff;
     margin-bottom: 36px;
@@ -908,11 +918,13 @@ body {
     font-family: "Open Sans";
     grid-auto-rows: 30px;
     grid-gap: 68px;
+  
 }
 
 .b-contact__input {
     border: none;
-    width: 90%;
+    width: 80%;
+      outline: transparent;
 }
 
 .b-one {
@@ -923,6 +935,16 @@ body {
     padding: 0;
     margin: 0;
 }
+
+
+  .b-contact__textarea {
+    overflow: auto;
+    width: 100%;
+    border: none; 
+      
+}
+
+
 
 .b-contact__button {
     margin-top: 48px;
@@ -1158,7 +1180,7 @@ body {
     }
 
     .b-item__description {
-        width: 294px;
+     width: 90%;
     }
 
     .b-pricing__header {
@@ -1173,7 +1195,7 @@ body {
     }
 
     .b-slot {
-        width: 209px;
+        width: 30%;
     }
 
     .b-slot__title {
@@ -1206,6 +1228,19 @@ body {
         font-size: 32px;
     }
 
+    .b-contact__textarea {
+    overflow: auto;
+    border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #bdbdbd;
+      width: 100%;
+}
+    
+    
+    
+    
+    
     .b-footer {
         margin-top: 255px;
     }
@@ -1334,6 +1369,7 @@ body {
         border: none;
         margin-top: 40px;
         width: 70%;
+        outline: transparent;
     }
 
 
@@ -1556,6 +1592,19 @@ body {
     .b-one {
         border-right: 1px solid #bdbdbd;
     }
+    
+    
+    .b-contact__textarea {
+    overflow: auto;
+    margin-top: 16px;
+    border-left: none;
+    border-top:none;
+    border-right: none;
+    border-bottom: 1px solid #bdbdbd;    
+}
+    
+    
+    
     .b-contact__button {
         width: 144px;
         height: 44px;
