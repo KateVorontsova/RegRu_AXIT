@@ -216,7 +216,7 @@ body {
 
 .b-tabs__all {
     margin-bottom: 20px;
-    width: 100%;
+    width: 85%;
     margin-top: 20px;
     margin-left: 21px;
     margin-right: 21px;
@@ -380,7 +380,7 @@ body {
     float: left;
     margin-left: 21px;
     margin-right: 21px;
-    width: 330px;
+    width: 320px;
 }
 
 .b-round__header {
@@ -400,7 +400,7 @@ body {
     font-family: "Open Sans";
     margin-right: 30px;
     margin-left: 0px;
-    width: 60%;
+    width: 50%;
 }
 
 .b-picture {
@@ -416,7 +416,7 @@ body {
     margin-top: 20px;
     margin-left: 21px;
     margin-right: 21px;
-    width: 340px;
+    width: 85%;
 }
 
 .b-picture__header {
