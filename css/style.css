@@ -216,7 +216,7 @@ body {
 
 .b-tabs__all {
     margin-bottom: 20px;
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
     margin-left: 21px;
     margin-right: 21px;
@@ -400,6 +400,7 @@ body {
     font-family: "Open Sans";
     margin-right: 30px;
     margin-left: 0px;
+    width: 60%;
 }
 
 .b-picture {
@@ -441,6 +442,7 @@ body {
     color: #6e7077;
     font-family: "Open Sans";
     line-height: 1.5;
+    width: 80%;
 }
 .b-picture__img {
     margin-right: 21px;
@@ -828,8 +830,8 @@ align-items: center;
     height: 43px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     font-family: "Open Sans";
     font-weight: bold;
     margin-left: 21px;
@@ -966,7 +968,7 @@ align-items: center;
 }
 
 .b-footer {
-    margin-top: 215px;
+    margin-top: 235px;
     height: 81px;
     background-color: #000000;
     text-align: center;
@@ -1596,7 +1598,7 @@ align-items: center;
     
     .b-contact__textarea {
     overflow: auto;
-    margin-top: 16px;
+    margin-top: 33px;
     border-left: none;
     border-top:none;
     border-right: none;
