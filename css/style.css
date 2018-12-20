@@ -1394,6 +1394,7 @@ body {
         border: none;
         margin-top: 40px;
         width: 70%;
+        outline: transparent;
     }
 
     .b-social__text {
