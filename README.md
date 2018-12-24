@@ -1,2 +1,2 @@
-# RegRu_AXIT
-Макет AXIT для стажировки в reg.ru
+# Макет_AXIT
+Макет AXIT
